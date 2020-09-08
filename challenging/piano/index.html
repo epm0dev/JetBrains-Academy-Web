@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- A HTML page which displays a piano which the user can play by pressing the appropriate keys on their keyboard. -->
+<html lang="en">
+<head>
+    <!-- Specify the character set to use. -->
+    <meta charset="utf-8">
+
+    <!-- Specify the page's title. -->
+    <title>Virtual Piano</title>
+
+    <!-- Link the main stylesheet containing the styles for the piano keys. -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Create a container for the full piano. -->
+    <div class="container">
+        <!-- Create a container for the piano's white keys. -->
+        <div class="white-keys">
+            <!-- Create a <kbd> element for each white key. -->
+            <kbd class="key-white">A</kbd>
+            <kbd class="key-white">S</kbd>
+            <kbd class="key-white">D</kbd>
+            <kbd class="key-white">F</kbd>
+            <kbd class="key-white">G</kbd>
+            <kbd class="key-white">H</kbd>
+            <kbd class="key-white">J</kbd>
+        </div>
+        <!-- Create a container for the piano's black keys. -->
+        <div class="black-keys">
+            <!-- Create a <kbd> element for each black key. -->
+            <kbd class="key-black" id="c-sharp">W</kbd>
+            <kbd class="key-black" id="d-sharp">E</kbd>
+            <kbd class="key-black" id="f-sharp">T</kbd>
+            <kbd class="key-black" id="g-sharp">Y</kbd>
+            <kbd class="key-black" id="a-sharp">U</kbd>
+        </div>
+    </div>
+
+    <!-- Load the JavaScript script which will handle keyboard inputs and play the appropriate audio files, if any. -->
+    <script src="keyboard.js"></script>
+</body>
+</html>

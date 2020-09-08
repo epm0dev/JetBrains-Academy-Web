@@ -1,0 +1,81 @@
+/* Set the background color of and remove the margin and padding from the body of the document. */
+body {
+    background-color: #304c2d;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style keyboard elements to display as inline-blocks with centered text. */
+kbd {
+    display: inline-block;
+    text-align: center;
+}
+
+/* Define a class to style white piano keys. */
+.key-white {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 50px;
+    height: 250px;
+}
+
+/* Define a class to style black piano keys. */
+.key-black {
+    color: white;
+    background-color: black;
+    width: 26px;
+    height: 175px;
+}
+
+/* Define a general class for creating containers with centered content. */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Define a class for the div element containing the white piano keys. */
+.white-keys {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 250px;
+    width: 364px;
+    top: 50%;
+    margin-top: -125px;
+}
+
+/* Define a class for the div element containing the black piano keys. */
+.black-keys {
+    display: flex;
+    position: absolute;
+    height: 175px;
+    width: 364px;
+    top: 50%;
+    margin-top: -125px;
+}
+
+/* Apply a margin to the left of the black, C# piano key. */
+#c-sharp {
+    margin-left: 39px;
+}
+
+/* Apply a margin to the left of the black, D# piano key. */
+#d-sharp {
+    margin-left: 26px;
+}
+
+/* Apply a margin to the left of the black, F# piano key. */
+#f-sharp {
+    margin-left: 78px;
+}
+
+/* Apply a margin to the left of the black, G# piano key. */
+#g-sharp {
+    margin-left: 26px;
+}
+
+/* Apply a margin to the left of the black, A# piano key. */
+#a-sharp {
+    margin-left: 26px;
+}
